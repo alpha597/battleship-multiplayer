@@ -1,0 +1,147 @@
+.container{
+    display :flex
+}
+.grid-user{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+    margin: 20px;
+}
+.grid div{
+    height : 40px;
+    width : 40 px;
+}
+.grid-computer{
+    height :400px;
+    width : 400px;
+    display :flex;
+    flex-wrap : wrap;
+    background-color: lightgreen;
+    margin:20px;
+}
+.grid-display{
+    height :400px;
+    width : 400px;
+    background-color: lightskyblue;
+    margin : 20px;
+}
+.destroyer-container{
+    height : 40px;
+    width : 80px;
+    background-color: orange;
+    display : flex;
+    margin : 10px;
+}
+.destroyer-container-vertical{
+    height : 80px;
+    width : 40px;
+    background-color: orange;
+    display : flex;
+    margin : 10px;
+    flex-wrap: wrap;
+}
+.submarine-container{
+    width:120px;
+    height :40px;
+    background-color: pink;
+    margin:10px;
+    display : flex;
+}
+.submarine-container-vertical{
+    width:40px;
+    height :120px;
+    background-color: pink;
+    margin:10px;
+    display : flex;
+    flex-wrap:wrap;
+}
+.cruiser-container{
+    width:120px;
+    height:40px;
+    background-color: purple;
+    display:flex;
+    margin : 10px;
+}
+.cruiser-container-vertical{
+    width:40px;
+    height:120px;
+    background-color: purple;
+    display:flex;
+    margin : 10px;
+    flex-wrap: wrap;
+}
+.battleship-container{
+    width:160px;
+    height: 40px;
+    background-color: aqua;
+    margin :10px;
+    display : flex;
+
+
+}
+.battleship-container-vertical{
+    width:40px;
+    height: 160px;
+    background-color: aqua;
+    margin :10px;
+    display : flex;
+    flex-wrap : wrap;
+
+}
+.carrier-container{
+    width:200px;
+    height:40px;
+    background-color: green;
+    display: flex;
+    margin : 10 px;
+
+}
+.carrier-container-vertical{
+    width:200px;
+    height:40px;
+    background-color: green;
+    display: flex;
+    margin : 10 px;
+    flex-wrap: wrap;
+
+}
+.ship div{
+    width:40px;
+    height : 40 px;
+}
+.destroyer{
+    background-color: orange;
+}
+.submarine{
+    background-color: pink ;
+}
+.cruiser{
+    background-color: purple ;
+}
+.battleship{
+    background-color: aqua;
+}
+.carrier{
+    background-color: green;
+}
+.boom{
+    background-color: red;
+}
+.miss{
+    background-color: black;
+}
+.connected,.ready{
+    font-weight : normal;
+}
+.connected span,
+.ready span{
+    display : inline-block;
+    width : 1rem;
+    height : 1rem;
+    background-color: red;
+}
+span.green{
+    background-color: green;
+}
